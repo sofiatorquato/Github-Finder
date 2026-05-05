@@ -12,7 +12,7 @@ interface UserDados{
   html_url:string
 }
 
-
+//
 async function buscar() {
   try {
     const resposta = await axios.get(`https://api.github.com/users/${username.value}`)
